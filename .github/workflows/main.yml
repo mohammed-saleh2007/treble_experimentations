@@ -59,12 +59,10 @@ jobs:
              export CCACHE_COMPRESS=1
              export CCACHE_MAXSIZE=50G # 50 GB
              # LineageOS 19.1 is used for this example
-             git clone https://github.com/phhusson/treble_experimentations
-             git clone https://github.com/phhusson/treble_experimentations
-             mkdir Lineage; cd Lineage
-             bash ../treble_experimentations/build-dakkar.sh aosp90 a64-ab-floss-su
              ls
-             cd treble_experimentations
+             mkdir Lineage; cd Lineage
+             ls
+             bash ../treble_experimentations/build-dakkar.sh aosp90 a64-ab-floss-su
              ls
              xz -9 -T0 -v -z system.img
 
