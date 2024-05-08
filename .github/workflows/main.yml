@@ -62,7 +62,7 @@ jobs:
              ls
              mkdir Lineage; cd Lineage
              ls
-             bash ../treble_experimentations/build-dakkar.sh aosp90 a64-ab-floss-su
+             bash ../build-dakkar.sh aosp90 a64-ab-floss-su
              ls
              xz -9 -T0 -v -z system.img
 
